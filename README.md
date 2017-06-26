@@ -58,4 +58,5 @@ c:\shipwire\code_challenge>php order_process_worker.php
  [x] Order Received : {"Header": 5, "Lines": [{"Product": "E", "Quantity": "5"}, {"Product": "D", "Quantity": "5"}]}
  
  *** Zero Inventory, Order Process Stopped ***
+ 
  -----------------------------------------------------------------------------------------------------------------------------------------------------------
