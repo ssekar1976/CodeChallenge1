@@ -33,6 +33,7 @@ c:\shipwire\code_challenge>php order_sender_task.php	(Input needs to be changed 
  [x] Sent {"Header": 4, "Lines": [{"Product": "A", "Quantity": "5"}, {"Product": "D", "Quantity": "5"}]}
  
  [x] Sent {"Header": 5, "Lines": [{"Product": "E", "Quantity": "5"}, {"Product": "D", "Quantity": "5"}]}
+ 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Order Output:
