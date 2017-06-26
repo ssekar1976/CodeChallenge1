@@ -44,15 +44,19 @@ c:\shipwire\code_challenge>php order_process_worker.php
   [*] Waiting for order to process [send order using task]. To exit press CTRL+C
 
  [x] Order Received : {"Header": 1, "Lines": [{"Product": "A", "Quantity": "4"}, {"Product": "C", "Quantity": "0"}]}
+ 
  [ ] Order Invalid : {"Header": 1, "Lines": [{"Product": "A", "Quantity": "4"}, {"Product": "C", "Quantity": "0"}]}
 
  [x] Order Received : {"Header": 2, "Lines": [{"Product": "A", "Quantity": "2"}, {"Product": "C", "Quantity": "5"}]}
+ 
  [x] Order Processed : {"Header":2,"OrderDetails":[{"ProductCode":"A","OrderedQty":"2","AllotedQty":"2","Backordered":0},{"ProductCode":"C","OrderedQty":"5","AllotedQty":"5","Backordered":0}],"TotalAllotedQty":7}
 
  [x] Order Received : {"Header": 3, "Lines": [{"Product": "B", "Quantity": "2"}, {"Product": "D", "Quantity": "5"}]}
+ 
  [x] Order Processed : {"Header":3,"OrderDetails":[{"ProductCode":"B","OrderedQty":"2","AllotedQty":0,"Backordered":"2"},{"ProductCode":"D","OrderedQty":"5","AllotedQty":0,"Backordered":"5"}],"TotalAllotedQty":0}
 
  [x] Order Received : {"Header": 4, "Lines": [{"Product": "A", "Quantity": "5"}, {"Product": "D", "Quantity": "5"}]}
+ 
  [x] Order Processed : {"Header":4,"OrderDetails":[{"ProductCode":"A","OrderedQty":"5","AllotedQty":"4","Backordered":1},{"ProductCode":"D","OrderedQty":"5","AllotedQty":0,"Backordered":"5"}],"TotalAllotedQty":4}
 
  [x] Order Received : {"Header": 5, "Lines": [{"Product": "E", "Quantity": "5"}, {"Product": "D", "Quantity": "5"}]}
