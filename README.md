@@ -19,9 +19,9 @@ To successfully test the code challenge you will need PHP, MySQL and a running R
 
 ## Code Run & Test Results
 
-Order Input:
+Order Input: (Note: Input needs to be changed in the program for each run)
 
-c:\shipwire\code_challenge>php order_sender_task.php	(Input needs to be changed in the program for each run)
+c:\shipwire\code_challenge>php order_sender_task.php
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
  [x] Sent {"Header": 1, "Lines": [{"Product": "A", "Quantity": "4"}, {"Product": "C", "Quantity": "0"}]}
