@@ -1,10 +1,6 @@
-#############
-
-Requirement:
+## Requirement
 
 To successfully test the code challenge you will need PHP, MySQL and a running RabbitMQ Server.
-
-#############
 
 ## MySQL Database
 
